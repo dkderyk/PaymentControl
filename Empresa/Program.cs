@@ -15,7 +15,7 @@ class Program
         {
             char terceiro;
 
-            Console.WriteLine("Funcionario terceiro(y/n)");
+            Console.WriteLine("Funcionario terceiro(s/n)");
             terceiro = char.Parse(Console.ReadLine());
 
             Console.WriteLine($"Funcionario {i+1}#");
